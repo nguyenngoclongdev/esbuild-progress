@@ -1,0 +1,36 @@
+{
+  "name": "esbuild-progress",
+  "version": "1.0.0",
+  "description": "Simple esbuild plugin that display nice progress when build.",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nguyenngoclongdev/esbuild-progress"
+  },
+  "bugs": {
+    "url": "https://github.com/nguyenngoclongdev/esbuild-progress/issues"
+  },
+  "sponsor": {
+    "url": "https://ko-fi.com/nguyenngoclong"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://ko-fi.com/nguyenngoclong"
+  },
+  "homepage": "https://nguyenngoclongdev.github.io",
+  "keywords": [
+    "esbuild",
+    "plugin",
+    "build",
+    "progress"
+  ],
+  "author": "Nguyen Ngoc Long",
+  "license": "ISC",
+  "devDependencies": {
+    "ora": "^7.0.1"
+  },
+  "peerDependencies": {
+    "ora": "^7.0.1"
+  }
+}
