@@ -1,6 +1,6 @@
 {
   "name": "esbuild-progress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple esbuild plugin that display nice progress when build.",
   "main": "./index.js",
   "types": "./index.d.ts",
@@ -27,10 +27,7 @@
   ],
   "author": "Nguyen Ngoc Long",
   "license": "ISC",
-  "devDependencies": {
-    "ora": "^7.0.1"
-  },
-  "peerDependencies": {
-    "ora": "^7.0.1"
+  "dependencies": {
+    "ora": "5.4.1"
   }
 }
